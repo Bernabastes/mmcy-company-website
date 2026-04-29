@@ -4,107 +4,95 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* MMCY Premium Corporate + Fitness Theme - Light Mode */
-  --background: oklch(0.98 0.002 90);
-  --foreground: oklch(0.15 0.01 260);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.15 0.01 260);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.01 260);
+  /* MMCY Premium Gym - Always Dark Luxury Theme */
+  --background: oklch(0.08 0.02 250);
+  --foreground: oklch(0.95 0.01 90);
+  --card: oklch(0.12 0.02 250);
+  --card-foreground: oklch(0.95 0.01 90);
+  --popover: oklch(0.12 0.02 250);
+  --popover-foreground: oklch(0.95 0.01 90);
   
-  /* Primary - Deep Corporate Blue/Charcoal */
-  --primary: oklch(0.25 0.02 260);
+  /* Primary - Electric Red/Crimson for energy */
+  --primary: oklch(0.60 0.22 25);
   --primary-foreground: oklch(0.98 0 0);
   
-  /* Secondary - Warm Neutral */
-  --secondary: oklch(0.95 0.005 60);
-  --secondary-foreground: oklch(0.25 0.02 260);
+  /* Secondary - Deep charcoal */
+  --secondary: oklch(0.15 0.015 250);
+  --secondary-foreground: oklch(0.90 0.01 90);
   
-  /* Muted - Soft Gray */
-  --muted: oklch(0.94 0.005 260);
-  --muted-foreground: oklch(0.45 0.01 260);
+  /* Muted - Dark gray */
+  --muted: oklch(0.18 0.015 250);
+  --muted-foreground: oklch(0.60 0.01 250);
   
-  /* Accent - Premium Gold/Bronze */
-  --accent: oklch(0.65 0.15 60);
-  --accent-foreground: oklch(0.15 0.01 260);
+  /* Accent - Fiery Orange/Gold for power */
+  --accent: oklch(0.72 0.18 55);
+  --accent-foreground: oklch(0.10 0.02 250);
   
   --destructive: oklch(0.55 0.22 27);
   --destructive-foreground: oklch(0.98 0 0);
   
-  --border: oklch(0.90 0.005 260);
-  --input: oklch(0.92 0.005 260);
-  --ring: oklch(0.65 0.15 60);
+  --border: oklch(0.22 0.02 250);
+  --input: oklch(0.18 0.02 250);
+  --ring: oklch(0.60 0.22 25);
   
-  --chart-1: oklch(0.65 0.15 60);
-  --chart-2: oklch(0.55 0.12 200);
-  --chart-3: oklch(0.45 0.08 260);
-  --chart-4: oklch(0.70 0.10 140);
-  --chart-5: oklch(0.60 0.18 30);
+  --chart-1: oklch(0.60 0.22 25);
+  --chart-2: oklch(0.72 0.18 55);
+  --chart-3: oklch(0.50 0.15 200);
+  --chart-4: oklch(0.65 0.12 140);
+  --chart-5: oklch(0.55 0.20 300);
   
   --radius: 0.75rem;
   
-  --sidebar: oklch(0.98 0.002 90);
-  --sidebar-foreground: oklch(0.15 0.01 260);
-  --sidebar-primary: oklch(0.25 0.02 260);
+  --sidebar: oklch(0.10 0.02 250);
+  --sidebar-foreground: oklch(0.95 0.01 90);
+  --sidebar-primary: oklch(0.60 0.22 25);
   --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.94 0.005 260);
-  --sidebar-accent-foreground: oklch(0.25 0.02 260);
-  --sidebar-border: oklch(0.90 0.005 260);
-  --sidebar-ring: oklch(0.65 0.15 60);
+  --sidebar-accent: oklch(0.15 0.015 250);
+  --sidebar-accent-foreground: oklch(0.95 0.01 90);
+  --sidebar-border: oklch(0.22 0.02 250);
+  --sidebar-ring: oklch(0.60 0.22 25);
 }
 
 .dark {
-  /* MMCY Premium Corporate + Fitness Theme - Dark Mode */
-  --background: oklch(0.12 0.015 260);
-  --foreground: oklch(0.95 0.005 90);
-  --card: oklch(0.16 0.015 260);
-  --card-foreground: oklch(0.95 0.005 90);
-  --popover: oklch(0.16 0.015 260);
-  --popover-foreground: oklch(0.95 0.005 90);
-  
-  /* Primary - Light for dark mode */
-  --primary: oklch(0.95 0.005 90);
-  --primary-foreground: oklch(0.12 0.015 260);
-  
-  /* Secondary */
-  --secondary: oklch(0.22 0.015 260);
-  --secondary-foreground: oklch(0.95 0.005 90);
-  
-  /* Muted */
-  --muted: oklch(0.22 0.015 260);
-  --muted-foreground: oklch(0.65 0.01 260);
-  
-  /* Accent - Premium Gold/Bronze */
-  --accent: oklch(0.70 0.16 60);
-  --accent-foreground: oklch(0.12 0.015 260);
-  
-  --destructive: oklch(0.45 0.18 27);
-  --destructive-foreground: oklch(0.95 0 0);
-  
-  --border: oklch(0.26 0.015 260);
-  --input: oklch(0.26 0.015 260);
-  --ring: oklch(0.70 0.16 60);
-  
-  --chart-1: oklch(0.70 0.16 60);
-  --chart-2: oklch(0.60 0.14 200);
-  --chart-3: oklch(0.55 0.10 260);
+  /* Same as root - always dark */
+  --background: oklch(0.08 0.02 250);
+  --foreground: oklch(0.95 0.01 90);
+  --card: oklch(0.12 0.02 250);
+  --card-foreground: oklch(0.95 0.01 90);
+  --popover: oklch(0.12 0.02 250);
+  --popover-foreground: oklch(0.95 0.01 90);
+  --primary: oklch(0.60 0.22 25);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.15 0.015 250);
+  --secondary-foreground: oklch(0.90 0.01 90);
+  --muted: oklch(0.18 0.015 250);
+  --muted-foreground: oklch(0.60 0.01 250);
+  --accent: oklch(0.72 0.18 55);
+  --accent-foreground: oklch(0.10 0.02 250);
+  --destructive: oklch(0.55 0.22 27);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.22 0.02 250);
+  --input: oklch(0.18 0.02 250);
+  --ring: oklch(0.60 0.22 25);
+  --chart-1: oklch(0.60 0.22 25);
+  --chart-2: oklch(0.72 0.18 55);
+  --chart-3: oklch(0.50 0.15 200);
   --chart-4: oklch(0.65 0.12 140);
-  --chart-5: oklch(0.65 0.20 30);
-  
-  --sidebar: oklch(0.16 0.015 260);
-  --sidebar-foreground: oklch(0.95 0.005 90);
-  --sidebar-primary: oklch(0.70 0.16 60);
-  --sidebar-primary-foreground: oklch(0.12 0.015 260);
-  --sidebar-accent: oklch(0.22 0.015 260);
-  --sidebar-accent-foreground: oklch(0.95 0.005 90);
-  --sidebar-border: oklch(0.26 0.015 260);
-  --sidebar-ring: oklch(0.70 0.16 60);
+  --chart-5: oklch(0.55 0.20 300);
+  --sidebar: oklch(0.10 0.02 250);
+  --sidebar-foreground: oklch(0.95 0.01 90);
+  --sidebar-primary: oklch(0.60 0.22 25);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.15 0.015 250);
+  --sidebar-accent-foreground: oklch(0.95 0.01 90);
+  --sidebar-border: oklch(0.22 0.02 250);
+  --sidebar-ring: oklch(0.60 0.22 25);
 }
 
 @theme inline {
-  --font-sans: 'Inter', 'Geist', 'Geist Fallback', system-ui, sans-serif;
-  --font-serif: 'Playfair Display', 'Georgia', serif;
-  --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
+  --font-sans: 'Inter', 'Geist', system-ui, sans-serif;
+  --font-serif: 'Bebas Neue', 'Oswald', 'Impact', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -159,16 +147,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--muted);
+  background: oklch(0.10 0.02 250);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--muted-foreground);
+  background: oklch(0.25 0.02 250);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent);
+  background: var(--primary);
 }
 
 /* Smooth scrolling */
@@ -178,13 +166,40 @@ html {
 
 /* Glass effect utility */
 .glass {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.dark .glass {
-  background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+/* Glow effects */
+.glow-primary {
+  box-shadow: 0 0 30px rgba(220, 70, 70, 0.3), 0 0 60px rgba(220, 70, 70, 0.1);
+}
+
+.glow-accent {
+  box-shadow: 0 0 30px rgba(255, 160, 50, 0.3), 0 0 60px rgba(255, 160, 50, 0.1);
+}
+
+/* Text gradient utility */
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated border */
+@keyframes border-glow {
+  0%, 100% { border-color: var(--primary); }
+  50% { border-color: var(--accent); }
+}
+
+.animate-border-glow {
+  animation: border-glow 3s ease-in-out infinite;
+}
+
+/* Noise texture overlay */
+.noise-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
 }
