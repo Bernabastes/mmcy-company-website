@@ -1,12 +1,10 @@
 # mmcy-company-website
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+This is a [Next.js](https://nextjs.org) project bootstrapped by me.
 
-## Built with v0
+## Built by me
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
-
-[Continue working on v0 →](https://v0.app/chat/projects/prj_xGGkgcp078YwcFjYB4KdiGx465ur)
+This repository is linked to a project. You can continue developing by visiting the link below -- start new chats to make changes . Every merge to `main` will automatically deploy.
 
 ## Getting Started
 
